@@ -2,16 +2,18 @@
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  @include heading-font;
+  @include body-font;
   .navbar-brand {
     color: $white;
   }
   .navbar-nav {
     margin-top: 1rem;
     letter-spacing: 0.0625rem;
+    align-items: center;
     li.nav-item {
       a.nav-link {
         color: $white;
+        text-transform: none;
         &:hover {
           color: $primary;
         }
@@ -45,6 +47,7 @@
     }
     .navbar-nav {
       margin-top: 0;
+      align-items: center;
     }
     .navbar-nav > li.nav-item > a.nav-link.active {
       color: $white;
@@ -64,4 +67,11 @@
       font-size: 1.5em;
     }
   }
+} /* min-width 992 px*/
+
+@media (min-width: 1200px) {
+  #mainNav .navbar-nav li.nav-item a.nav-link {
+    font-size:18px;
+  }
+
 }

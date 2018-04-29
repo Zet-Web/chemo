@@ -1,0 +1,829 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"purcha",
+				"purchase"
+			],
+			[
+				"ng-r",
+				"ng-repeat\tAngularJS"
+			],
+			[
+				"ng-cl",
+				"ng-click\tAngularJS"
+			],
+			[
+				"z",
+				"z-a\tz-index: auto;"
+			],
+			[
+				"au",
+				"auto"
+			],
+			[
+				"mar-",
+				"margin-bottom"
+			],
+			[
+				"list-style-",
+				"list-style-type"
+			],
+			[
+				"f-z",
+				"font-size"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"san",
+				"sans-serif"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"imort",
+				"important"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"di",
+				"disabled\tAttr"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"tex-al",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"m",
+				"mb\tmargin-bottom"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"trans",
+				"transition\tCSS - transition: ;"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"p",
+				"page-break-before"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tra",
+				"transparent"
+			],
+			[
+				"font-osw",
+				"font-oswald-light"
+			],
+			[
+				"sessi",
+				"session_destroy"
+			],
+			[
+				"sess",
+				"session_start"
+			],
+			[
+				"inputs",
+				"inputs\tinput - submit"
+			],
+			[
+				"input",
+				"inputt\tinput - text"
+			],
+			[
+				"phpif",
+				"phpinfo"
+			],
+			[
+				"news",
+				"newsTemplate"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"w",
+				"width\tAttr"
+			],
+			[
+				"d",
+				"d:b\tdisplay:block"
+			],
+			[
+				"f-si",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"h",
+				"h\theight"
+			],
+			[
+				"ab",
+				"absolute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				],
+				[
+					"Packages/Compass/Compass.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "schemr",
+		"selected_items":
+		[
+			[
+				"schemr",
+				"Schemr: Reset scheme for current syntax"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"h",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"sche",
+				"Schemr: Set scheme for current syntax"
+			],
+			[
+				"the",
+				"Themr: List themes"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"s",
+				"SassBeautify"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"BEAU",
+				"SassBeautify"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"form",
+				"CodeFormatter: Format as SCSS Syntax"
+			],
+			[
+				"schem",
+				"Schemr: Set scheme for current syntax"
+			],
+			[
+				"code",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"schrm",
+				"Schemr: Random scheme"
+			],
+			[
+				"themr",
+				"Themr: Previous theme"
+			],
+			[
+				"htmlb",
+				"HTMLBeautify"
+			],
+			[
+				"codef",
+				"CodeFormatter: Format as SCSS Syntax"
+			],
+			[
+				"build",
+				"Build With: SASS"
+			],
+			[
+				"build ",
+				"Build With: SASS"
+			],
+			[
+				"bild",
+				"Build With: SASS"
+			],
+			[
+				"buil ",
+				"Build With: SASS"
+			],
+			[
+				"bui",
+				"Build With: SASS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build With: SASS"
+			],
+			[
+				"codefo",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"codeforma",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"format as",
+				"CodeFormatter: Format as CSS Syntax"
+			],
+			[
+				"hmlb",
+				"HTMLBeautify"
+			],
+			[
+				"format ",
+				"CodeFormatter: Format as SCSS Syntax"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as SCSS Syntax"
+			],
+			[
+				"fornma",
+				"Format CSS: Expanded (Break Selectors)"
+			],
+			[
+				"dis",
+				"Git: Diff Staged Files"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"bu",
+				"Build With: HAML"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"mini",
+				"Minify::Minify File"
+			],
+			[
+				"mater",
+				"Material Theme: Configuration"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"buil",
+				"Build With: HAML"
+			],
+			[
+				"build wi",
+				"Build With: HAML"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git st",
+				"GitStatus: Changed files"
+			],
+			[
+				"git init",
+				"Git (SideBarGit): Init"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"gitg",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 633.0
+	},
+	"console":
+	{
+		"height": 231.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/OSPanel/domains/chemodan-msk.loc"
+	],
+	"file_history":
+	[
+		"/F/OSPanel/domains/chemod.loc/scss/_portfolio.scss",
+		"/F/OSPanel/domains/chemod.loc/scss/_masthead.scss",
+		"/F/OSPanel/domains/chemod.loc/scss/_fonts.scss",
+		"/F/OSPanel/domains/chemod.loc/scss/_global.scss",
+		"/F/OSPanel/domains/chemod.loc/scss/freelancer.scss",
+		"/F/OSPanel/domains/docent.loc/css/sass.css",
+		"/F/OSPanel/domains/docent.loc/scss/sass.scss",
+		"/F/OSPanel/domains/docent.loc/docent.sublime-project",
+		"/C/www/home/localhost/www/docent.local/css/login.css",
+		"/C/www/home/localhost/www/docent.local/css/style.css",
+		"/K/2018/salerno/salerno/wp-config.php",
+		"/C/Users/Zet/AppData/Local/VirtualStore/Program Files (x86)/WinSplit Revolution/hotkeys.xml",
+		"/C/www/home/localhost/www/docent.local/images/close-envelope.svg",
+		"/C/www/home/localhost/www/docent.local/images/task-complete.svg",
+		"/C/www/home/localhost/www/docent.local/scss/style.scss",
+		"/C/Users/Zet/AppData/Local/Apps/2.0/Data/M0XXRJGR.GTX/VZM9Q82A.W1A/gith..tion_317444273a93ac29_0003.0000_328216539257acd4/Data/3.0.4.0/user.config",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/page.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/single.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/full-width.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/front-page.php",
+		"/H/Disk--DATA/spa-iz/zetweb_7 bac.sql",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/salerno-m.ru.error.log",
+		"/H/Disk--DATA/spa-iz/zetweb_spa.sql",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/index.htm",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/токен.txt",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/wp-config.php",
+		"/C/www/home/localhost/www/test6/css/stylesheet.css",
+		"/C/www/home/localhost/www/test6/sass/animate/animate.scss",
+		"/C/www/home/localhost/www/test6/css/style.css",
+		"/C/www/home/localhost/www/test6/sass/sass-font.sass",
+		"/C/www/home/localhost/www/test/css/style.css",
+		"/C/www/home/localhost/www/test/sass/hover/_options.scss",
+		"/C/www/home/localhost/www/test/images/shop-cart.svg",
+		"/C/www/home/localhost/www/test/images/ic_favorite_border_white_24px.svg",
+		"/C/www/home/localhost/www/test/css/stlye.css",
+		"/C/www/home/localhost/www/test/images/ic_forum_blue_24px.svg",
+		"/C/www/home/localhost/www/test/images/ic_forum_white_24px.svg",
+		"/C/www/home/localhost/www/test/images/ic_arrow_forward_white_24px.svg",
+		"/C/www/home/localhost/www/test/sass/partials/_mixins.scss",
+		"/C/www/home/localhost/www/test/sass/partials/grid.scss",
+		"/C/www/home/localhost/www/test/sass/hover/hover.scss",
+		"/C/www/home/localhost/www/test/css/bootstrap.min.css",
+		"/C/www/home/localhost/www/test/css/bootstrap/_bootstrap-compass.scss",
+		"/C/www/home/localhost/www/test/css/bootstrap/_bootstrap-mincer.scss",
+		"/C/www/home/localhost/www/test/css/bootstrap/_bootstrap.scss",
+		"/C/www/home/localhost/www/test/css/bootstrap.css",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/main.js",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/main.css",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/WebServers/home/localhost/www/mailhome/site/q.php",
+		"/C/WebServers/home/localhost/www/mailhome/q.php",
+		"/C/WebServers/home/localhost/www/mailhome/responsed.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/q2.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/q.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/q3.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/bitrix_sender.php",
+		"/C/WebServers/home/localhost/www/rapa/fonts/GothamPro-Medium/styles.css",
+		"/C/WebServers/home/localhost/www/rapa/css/style.css",
+		"/C/WebServers/home/localhost/www/rapa/fonts/styles.css",
+		"/C/WebServers/home/localhost/www/avto.lc/css/dd.css",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/return.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/pay.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/faq.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/delivery.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/js.js",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/sale.html",
+		"/C/WebServers/home/localhost/www/avto.lc/sass-newback.scss",
+		"/C/WebServers/home/localhost/www/avto.lc/index-backnew.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/index.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/delivery.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/faq.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/pay.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/return.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-3/sale.html",
+		"/C/WebServers/home/localhost/www/avto.lc/index.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/magnific-popup.css",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/get_closed.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/header.php",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/footer.php",
+		"/C/WebServers/home/localhost/www/avto.lc/delivery.html",
+		"/C/WebServers/home/localhost/www/avto.lc/css/style.css",
+		"/C/WebServers/home/localhost/www/avto.lc/css/slick.css",
+		"/C/WebServers/home/localhost/www/avto.lc/css/slick-theme.css",
+		"/C/WebServers/home/localhost/www/avto.lc/q.php",
+		"/C/WebServers/home/localhost/www/avto.lc/sass/partials/_mixins.scss",
+		"/C/WebServers/home/localhost/www/avto.lc/sass/partials/_fonts.scss",
+		"/C/WebServers/home/localhost/www/avto.lc/js.js",
+		"/C/WebServers/home/localhost/www/avto.lc/css/tekitizy.css",
+		"/C/WebServers/home/localhost/www/avto.lc/.gitignore",
+		"/C/WebServers/home/localhost/www/avto.lc/sass/style.scss",
+		"/C/WebServers/home/localhost/www/avto.lc/sass/partials/_extends.scss",
+		"/Z/home/localhost/www/avto.lc/hello-computer.github.com-958c4f89eb4a7af4bb505ccc08e79fa6f691efe6/hello-computer.github.com-958c4f89eb4a7af4bb505ccc08e79fa6f691efe6/fonts/PFAgoraSlabPro/PFAgoraSlabPro.css",
+		"/C/WebServers/home/localhost/www/avto.lc/sass/partials/_zbase.html",
+		"/C/WebServers/home/avto.lc/www/js/js.js",
+		"/C/WebServers/home/avto.lc/www/index.html",
+		"/C/WebServers/home/avto.lc/www/css/normalize.css",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/2х4.2.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/2х3.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/2.5х5.html",
+		"/C/Users/Zet/AppData/Local/Temp/fz3temp-2/montag.html",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/calendar/calendar-month-row.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_events.sass",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_fonts.sass",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/calendar/calendar-month-multiple-entity.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/js/parallax.min.js",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/views/views-view-fields--media-photos--block.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/calendar/calendar-month-col.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/views/views-view-unformatted--events.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/views/views-view-fields--events-upc--block.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/nodes/node--event--full.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/calendar/calendar-datebox.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/modules/contrib/date/date_views/css/date_views.css",
+		"/C/WebServers/home/lcsi.lc/www/sites/all/themes/smubase/sass/_front.scss",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/modules/contrib/calendar/theme/calendar-day-overlap.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/modules/contrib/calendar/theme/calendar-mini.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/templates/field/views-view-field--members-list--block--field-image.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/modules/contrib/views_bootstrap/templates/tab/views-bootstrap-tab-plugin-style.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/modules/contrib/calendar/theme/calendar-item.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/modules/contrib/calendar/theme/calendar-datebox.tpl.php",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/js/script.js",
+		"/C/WebServers/home/lcsi.lc/www/sites/smudocroot-settings.inc",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_navigation.sass",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_content.sass",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_view-our-research-home-page.sass",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_page.sass",
+		"/C/WebServers/home/lcsi.lc/www/sites/lcsi.smu.edu.sg/themes/lcsi/sass/_view-our-programmes-home-page.sass"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 139.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 149.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chemodan.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"global.c",
+				"sites\\all\\themes\\smubase\\css\\global.css"
+			],
+			[
+				"navigation.sass",
+				"sites\\lcsi.smu.edu.sg\\themes\\lcsi\\sass\\_navigation.sass"
+			],
+			[
+				"footer.sass",
+				"sites\\lcsi.smu.edu.sg\\themes\\lcsi\\sass\\_footer.sass"
+			],
+			[
+				"cre",
+				"css\\create-window.css"
+			],
+			[
+				"style.sc",
+				"sass\\style.scss"
+			],
+			[
+				"ty",
+				"sass\\lib\\base\\_typography.scss"
+			],
+			[
+				"crea",
+				"css\\create-window.css"
+			],
+			[
+				"main.js",
+				"js\\main.js"
+			],
+			[
+				"js",
+				"js\\js.js"
+			],
+			[
+				"style-c",
+				"css\\style-custom.css"
+			],
+			[
+				"style-z",
+				"css\\style-zet.css"
+			],
+			[
+				"style-",
+				"css\\style-old.css"
+			],
+			[
+				"z",
+				"sass\\partials\\_zbase.scss"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"css3",
+				"sass\\css3-mixins.scss"
+			],
+			[
+				"zb",
+				"sass\\partials\\_zbase.scss"
+			],
+			[
+				"style.css",
+				"compass\\timer\\stylesheets\\style.css"
+			],
+			[
+				"foot",
+				"partials\\footer.haml"
+			],
+			[
+				"hea",
+				"partials\\head.haml"
+			],
+			[
+				"defa",
+				"js\\styles\\jquery.carousel-3d.default.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

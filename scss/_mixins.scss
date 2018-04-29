@@ -1,8 +1,7 @@
 @mixin body-font() {
-  font-family: 'Lato';
+  font-family: 'Gotham Pro';
 }
 
 @mixin heading-font() {
-  font-weight: 700;
-  font-family: 'Montserrat';
+  font-family: 'Gotham Pro-medium';
 }

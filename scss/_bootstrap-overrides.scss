@@ -1,4 +1,8 @@
 // Bootstrap overrides for this template
+.font-600 {
+  font-family: 'Gotham Pro-medium';
+}
+
 a {
   color: $primary;
   &:focus,
