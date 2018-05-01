@@ -1,0 +1,72 @@
+/*
+sass --watch scss/custom.scss:css/custom.css
+Version: 1.1.0
+*/
+
+
+/*MEDIA QUERIES */
+
+/* Large desktops and laptops */
+
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (min-width: 1200px) and (max-width:1445px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* 768 - 991*/
+
+/* IPAD LANDSCAPE ONLY */
+
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+
+
+}
+
+/* END IPAD LANDSCAPE ONLY */
+
+/* 1024 simple*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+
+
+}
+/* END 1024*/
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  header.masthead h1 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* MEDIA 480px*/
+
+@media (max-width: 320px) {
+
+
+}

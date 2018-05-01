@@ -1,0 +1,23 @@
+/*
+sass --watch scss/custom.scss:css/custom.css
+Version: 1.1.0
+*/
+/*MEDIA QUERIES */
+/* Large desktops and laptops */
+/* Landscape tablets and medium desktops */
+/* Portrait tablets and small desktops */
+/* 768 - 991*/
+/* IPAD LANDSCAPE ONLY */
+/* END IPAD LANDSCAPE ONLY */
+/* 1024 simple*/
+/* END 1024*/
+/* Landscape phones and portrait tablets */
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  header.masthead h1 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* MEDIA 480px*/
