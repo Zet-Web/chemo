@@ -1,5 +1,5 @@
 /*
-
+.
 @include media-breakpoint-up(xs) { ... }
 @include media-breakpoint-up(sm) { ... }
 @include media-breakpoint-up(md) { ... }
@@ -22,9 +22,9 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  #mainNav .navbar-nav li.nav-item a.nav-link {
-    font-size:18px;
-  }
+  //#mainNav .navbar-nav li.nav-item a.nav-link {
+  //  font-size:14px;
+  //}
 }
 
 
@@ -48,7 +48,7 @@
 
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575px) { ... }
+@media (max-width: 575px) {  }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767px) { }

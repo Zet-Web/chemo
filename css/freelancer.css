@@ -227,6 +227,13 @@ section h2 {
   padding: 0.8rem;
 }
 
+#mainNav .tel-link {
+  line-height: normal;
+  font-size: 16px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -236,13 +243,14 @@ section h2 {
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 2em;
+    font-size: 1.4em;
     -webkit-transition: font-size 0.3s;
     -moz-transition: font-size 0.3s;
     transition: font-size 0.3s;
   }
   #mainNav .navbar-nav {
     margin-top: 0;
+    align-items: center;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
@@ -261,9 +269,11 @@ section h2 {
   }
 }
 
+/* min-width 992 px*/
 @media (min-width: 1200px) {
   #mainNav .navbar-nav li.nav-item a.nav-link {
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: -0.05em;
   }
 }
 
@@ -288,8 +298,9 @@ header.masthead h2 {
     padding-bottom: 6rem;
   }
   header.masthead h1 {
-    font-size: 4.75em;
-    line-height: 4rem;
+    font-size: 3em;
+    line-height: 3.5rem;
+    letter-spacing: 0.1em;
   }
   header.masthead h2 {
     font-size: 1.75em;
@@ -433,6 +444,18 @@ form .row:first-child .floating-label-form-group {
   background-color: #000102;
 }
 
+/*
+.
+@include media-breakpoint-up(xs) { ... }
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+*/
+.font-600 {
+  font-family: 'Gotham Pro-medium';
+}
+
 a {
   color: #18BC9C;
 }
@@ -479,4 +502,15 @@ a:focus, a:hover, a:active {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
   background-color: #000102;
   border-color: #000102;
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #FFED00;
+  border-color: #FFED00;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-size: 0.75rem;
 }

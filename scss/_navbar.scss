@@ -31,6 +31,12 @@
     font-size: 80%;
     padding: 0.8rem;
   }
+  .tel-link {
+    line-height: normal;
+    font-size: 16px;
+    text-align: right;
+    color: #FFFFFF;
+  }
 }
 @media(min-width:992px) {
   #mainNav {
@@ -40,7 +46,7 @@
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     .navbar-brand {
-      font-size: 2em;
+      font-size: 1.4em;
       -webkit-transition: font-size 0.3s;
       -moz-transition: font-size 0.3s;
       transition: font-size 0.3s;
@@ -71,7 +77,8 @@
 
 @media (min-width: 1200px) {
   #mainNav .navbar-nav li.nav-item a.nav-link {
-    font-size:18px;
+    font-size:14px;
+    letter-spacing: -0.05em;
   }
 
 }
