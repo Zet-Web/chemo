@@ -481,7 +481,7 @@
 	},
 	"expanded_folders":
 	[
-		"/F/OSPanel/domains/chemodan-msk.loc"
+		"/C/OSPanel/domains/chemo.loc"
 	],
 	"file_history":
 	[
@@ -616,7 +616,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -654,7 +654,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -703,7 +703,7 @@
 	"project": "chemodan.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
