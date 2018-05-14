@@ -114,8 +114,29 @@ Version: 1.1.0
 
 
 
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+  background: #23356B;
+  border-color: #23356B;
+}
 
+.btn-secondary {
+  background-color: transparent;
+  border-color: #23356B;
+  border-width: 1px;
+  color:#23356B;
+}
+.name-item {
+  font-family: 'Gotham Pro';
+}
 
+#mainNav .navbar-nav li.nav-item a.nav-link {
+
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 
 input[type="checkbox"].styled:checked + label:after {
   font-family: 'FontAwesome';
@@ -277,6 +298,117 @@ input[type="checkbox"].styled:checked + label:after {
   }
 }
 
+/*JSSOR SLIDER VIEW PRODUCT - ВИД ПРОДУКЦИИ*/
+#jssor_1 {
+  position:relative;
+  margin:0 auto;
+  top:0px;
+  left:0px;
+  width:455px;
+  height:480px;
+  overflow:hidden;
+  visibility:hidden;
+  .slides {
+    cursor:default;
+    position:relative;
+    top:0px;
+    left:0px;
+    width:300px;
+    height:350px;
+    overflow:hidden;
+  }
+  .jssorl-009-spin {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-color:rgba(0,0,0,0.7);
+    img {
+      margin-top:-19px;
+      position:relative;
+      top:50%;
+      width:38px;
+      height:38px;
+    }
+  }
+  .jssort101 {
+    position:absolute;
+    right:0px;
+    top:0px;
+    width:150px;
+    height:350px;
+  }
+  .p {
+    width:99px;
+    height:66px;
+  }
+  .arr-left {
+    width:50px;
+    height:50px;
+    top:30%;
+    left:30px;
+  }
+  .arr-right {
+    width:50px;
+    height:50px;
+    top:30%;
+    right:160px;
+  }
+} /*# JSSOR_1 */
+/*END JSSOR SLIDER VIEW PRODUCT - ВИД ПРОДУКЦИИ*/
+
+#jssor_2 {
+  position:relative;
+  margin:0 auto;
+  top:0px;
+  left:0px;
+  width:1120px;
+  height:480px;
+  overflow:hidden;
+  visibility:hidden;
+  .jssorl-009-spin {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    text-align:center;
+    background-color:rgba(0,0,0,0.7);
+    img {
+      margin-top:-19px;
+      position:relative;
+      top:50%;
+      width:38px;
+      height:38px;
+    }
+  }
+  .u-slides {
+    cursor:default;
+    position:relative;
+    top:0px;
+    left:0px;
+    width:1120px;
+    height:480px;
+    overflow:hidden;
+  }
+  .arr-left {
+    width:50px;
+    height:50px;
+    top:0px;
+    left:30px;
+    color:#423E3E;
+  }
+  .arr-right {
+    width:50px;
+    height:50px;
+    top:0px;
+    right:240px;
+    color:#423E3E;
+  }
+}
+
 
 
 /* ДО КОНЦА АКЦИИ ОСТАЛОСЬ  - COUNTDOWN TIMER */
@@ -327,6 +459,31 @@ input[type="checkbox"].styled:checked + label:after {
   top: 0;
 }
 
+
+/* COPYRIGHT */
+.copyright {
+  .socials li {
+
+    border-radius: 50%;
+
+    a {
+      color:#FFF;
+      border:0;
+      height: 2.7rem;
+      width: 2.7rem;
+      background: #23356B;
+      &:hover {
+        background-color: #ffed00;
+        border-color: #ffed00;
+        color:#000;
+      }
+    }
+  }
+  .copy-text {
+    margin-top: 15px;
+    font-size:12px;
+  }
+}
 
 /* Large desktops and laptops */
 
@@ -384,6 +541,46 @@ and (max-device-width : 1024px)  {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+  #jssor_1 , #jssor_2{
+    width:100% !important;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+
+  #jssor_1 .jssort101 {
+    position: absolute;
+    left: 0 !important;
+    top: 120px !important;
+    width: 320px !important;
+    height: 150px !important;
+  }
+
+  #jssor_1 {
+    .arr-left {
+      left:0 ;
+      top:0;
+    }
+    .arr-right {
+      right:30px ;
+      top:0;
+    }
+  }
+  .clock .time-block .time {
+    font-size: 1.6rem;
+  }
+  #about .slide-description {
+    margin-bottom: 1.5rem;
+  }
+
+   .clock .time-block .label {
+    font-size:10px;
+  }
+
+  section {
+    padding: 3rem 0;
+  }
+
 }
 
 /* MEDIA 480px*/

@@ -94,6 +94,7 @@ jQuery(document).ready(function ($) {
     ];
 
     var jssor_1_options = {
+        $FillMode: 1,
         $AutoPlay: 1,
         $SlideshowOptions: {
             $Class: $JssorSlideshowRunner$,
@@ -176,7 +177,7 @@ jQuery(document).ready(function ($) {
     }
 
     function ScaleSlider() {
-        var containerElement = jssor_2_slider.$Elmt.parentNode;
+        var containerElement = jssor_1_slider.$Elmt.parentNode;
         var containerWidth = containerElement.clientWidth;
 
         if (containerWidth) {
@@ -197,6 +198,7 @@ jQuery(document).ready(function ($) {
     $(window).bind("resize", ScaleSlider);
     $(window).bind("orientationchange", ScaleSlider);
   /*#endregion responsive code end*/
+
 
 
   /* ДО КОНЦА АКЦИИ ОСТАЛОСь */
