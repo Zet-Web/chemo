@@ -475,6 +475,190 @@ input[type="checkbox"].styled:checked + label:after {
   margin-top: 15px;
   font-size: 12px; }
 
+.floating-label-form-group input, .floating-label-form-group textarea {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+form .row:first-child .floating-label-form-group {
+  border-top-width: 0; }
+
+/* OWL CAROUSEL */
+.content-carousel {
+  width: 600px;
+  display: block;
+  margin: 0 auto; }
+
+.owl-carousel {
+  width: calc(100% - 300px); }
+
+.owl-carousel .owl-controls .owl-dot {
+  background-size: cover;
+  margin-top: 10px; }
+
+.owl-carousel .owl-dots {
+  position: absolute;
+  top: 0;
+  right: -170px;
+  width: 150px;
+  height: 100%; }
+
+.owl-carousel .owl-dot {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -20px;
+  display: block !important;
+  border: 0px solid black; }
+
+.owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -25px;
+  display: block !important;
+  border: 0px solid black; }
+
+/* TESTIMONIALS BX SLIDER STYLES - ╨б╨в╨Ш╨Ы╨Ш ╨Ю╨в╨Ч╨л╨Т╨Ю╨Т  */
+.testimonials {
+  /* bxslider */
+  /** THEME
+  ===================================*/
+  /* LOADER */
+  /* DIRECTION CONTROLS (NEXT / PREV) */
+  /* AUTO CONTROLS (START / STOP) */
+  /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+  /* IMAGE CAPTIONS */ }
+  .testimonials .bx-wrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    *zoom: 1; }
+  .testimonials .bx-wrapper img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px; }
+  .testimonials .bxslider {
+    top: -12px; }
+  .testimonials .bx-wrapper .bx-viewport {
+    background: #fff; }
+  .testimonials .bx-wrapper .bx-pager {
+    display: none; }
+  .testimonials .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%; }
+  .testimonials .bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url("../img/bx_loader.gif") center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000; }
+  .testimonials .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline; }
+  .testimonials .bx-wrapper .bx-prev {
+    left: -50px;
+    border-radius: 15px; }
+  .testimonials .bx-wrapper .bx-prev:before {
+    content: '';
+    background: url(http://www.japonshop.com/css/img/flch-izq.gif) no-repeat center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .testimonials .bx-wrapper .bx-next {
+    right: -50px;
+    border-radius: 15px; }
+  .testimonials .bx-wrapper .bx-next:before {
+    content: '';
+    background: url(http://www.japonshop.com/css/img/flch-der.gif) no-repeat center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .testimonials .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    outline: 0;
+    width: 32px;
+    height: 112px;
+    text-indent: -9999px;
+    z-index: 9999;
+    border: 1px solid #e6e6e6;
+    background: -webkit-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
+    background: -moz-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
+    background: -o-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
+    background: linear-gradient(#fcfcfc 0%, #ebebeb 100%); }
+  .testimonials .bx-wrapper .bx-controls-direction a:hover {
+    background: #ebebeb; }
+  .testimonials .bx-wrapper .bx-controls-direction a:hover:before {
+    left: 45%; }
+  .testimonials .bx-wrapper .bx-controls-direction a.bx-next:hover:before {
+    left: 55%; }
+  .testimonials .bx-wrapper .bx-controls-direction a.disabled {
+    display: none; }
+  .testimonials .bx-wrapper .bx-controls-auto {
+    text-align: center; }
+  .testimonials .bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url(//bxslider.com/lib/images/controls.png) -86px -11px no-repeat;
+    margin: 0 3px; }
+  .testimonials .bx-wrapper .bx-controls-auto .bx-start:hover,
+  .testimonials .bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0; }
+  .testimonials .bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url(//bxslider.com/lib/images/controls.png) -86px -44px no-repeat;
+    margin: 0 3px; }
+  .testimonials .bx-wrapper .bx-controls-auto .bx-stop:hover,
+  .testimonials .bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px; }
+  .testimonials .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%; }
+  .testimonials .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px; }
+  .testimonials .bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666 \9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%; }
+  .testimonials .bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px; }
+
+/* END TESTIMONIALS BX SLIDER STYLES - ╨б╨в╨Ш╨Ы╨Ш ╨Ю╨в╨Ч╨л╨Т╨Ю╨Т  */
 /* Large desktops and laptops */
 /* Landscape tablets and medium desktops */
 /* Portrait tablets and small desktops */
@@ -520,7 +704,12 @@ input[type="checkbox"].styled:checked + label:after {
     font-size: 10px; }
 
   section {
-    padding: 3rem 0; } }
+    padding: 3rem 0; }
+
+  .content-carousel {
+    width: 100%;
+    display: block;
+    margin: 0 auto; } }
 /* MEDIA 480px*/
 
 /*# sourceMappingURL=custom.css.map */

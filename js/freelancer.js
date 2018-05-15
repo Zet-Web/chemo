@@ -76,128 +76,72 @@
 
 jQuery(document).ready(function ($) {
 
-    var jssor_1_SlideshowTransitions = [
-        {$Duration:1200,$Zoom:1,$Easing:{$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad},$Opacity:2},
-        {$Duration:1000,$Zoom:11,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
-        {$Duration:1200,$Zoom:1,$Rotate:1,$During:{$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Easing:{$Zoom:$Jease$.$Swing,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$Swing},$Opacity:2,$Round:{$Rotate:0.5}},
-        {$Duration:1000,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InQuint,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-        {$Duration:1200,x:0.5,$Cols:2,$Zoom:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-        {$Duration:1200,x:4,$Cols:2,$Zoom:11,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
-        {$Duration:1200,x:0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Opacity:2,$Round:{$Rotate:0.5}},
-        {$Duration:1000,x:-4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InQuint,$Zoom:$Jease$.$InQuart,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-        {$Duration:1200,x:-0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Opacity:2,$Round:{$Rotate:0.5}},
-        {$Duration:1000,x:4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InQuint,$Zoom:$Jease$.$InQuart,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-        {$Duration:1200,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
-        {$Duration:1000,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Top:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.7}},
-        {$Duration:1200,x:-4,y:2,$Rows:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Row:28},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
-        {$Duration:1200,x:1,y:2,$Cols:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:19},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.8}}
-    ];
+    $(".configuration .owl-carousel").owlCarousel({
+        loop:true,
+        items:1,
+        margin:0,
+        stagePadding: 0,
+        autoplay:false,
+        nav: true,
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
+    });
 
-    var jssor_1_options = {
-        $FillMode: 1,
-        $AutoPlay: 1,
-        $SlideshowOptions: {
-            $Class: $JssorSlideshowRunner$,
-            $Transitions: jssor_1_SlideshowTransitions,
-            $TransitionsOrder: 1
-        },
-        $ArrowNavigatorOptions: {
-            $Class: $JssorArrowNavigator$
-        },
-        $ThumbnailNavigatorOptions: {
-            $Class: $JssorThumbnailNavigator$,
-            $Rows: 1,
-            $SpacingX: 12,
-            $SpacingY: 10,
-            $Orientation: 2,
-            $Align: 156
-        }
-    };
+    dotcount = 1;
 
-    var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+    jQuery('.configuration .owl-dot').each(function() {
+        jQuery( this ).addClass( 'dotnumber' + dotcount);
+        jQuery( this ).attr('data-info', dotcount);
+        dotcount=dotcount+1;
+    });
 
-    /* ОТЗЫВЫ СЛАЙДЕР */
+    slidecount = 1;
 
-    var jssor_2_SlideshowTransitions = [
-        {$Duration:1200,$Zoom:1,$Easing:{$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad},$Opacity:2},
-        {$Duration:1000,$Zoom:11,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
-        {$Duration:1200,$Zoom:1,$Rotate:1,$During:{$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Easing:{$Zoom:$Jease$.$Swing,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$Swing},$Opacity:2,$Round:{$Rotate:0.5}},
-        {$Duration:1000,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Zoom:$Jease$.$InQuint,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-        {$Duration:1200,x:0.5,$Cols:2,$Zoom:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
-        {$Duration:1200,x:4,$Cols:2,$Zoom:11,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear},$Opacity:2},
-        {$Duration:1200,x:0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Opacity:2,$Round:{$Rotate:0.5}},
-        {$Duration:1000,x:-4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InQuint,$Zoom:$Jease$.$InQuart,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-        {$Duration:1200,x:-0.6,$Zoom:1,$Rotate:1,$During:{$Left:[0.2,0.8],$Zoom:[0.2,0.8],$Rotate:[0.2,0.8]},$Opacity:2,$Round:{$Rotate:0.5}},
-        {$Duration:1000,x:4,$Zoom:11,$Rotate:1,$SlideOut:true,$Easing:{$Left:$Jease$.$InQuint,$Zoom:$Jease$.$InQuart,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InQuint},$Opacity:2,$Round:{$Rotate:0.8}},
-        {$Duration:1200,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
-        {$Duration:1000,x:0.5,y:0.3,$Cols:2,$Zoom:1,$Rotate:1,$SlideOut:true,$Assembly:2049,$ChessMode:{$Column:15},$Easing:{$Left:$Jease$.$InExpo,$Top:$Jease$.$InExpo,$Zoom:$Jease$.$InExpo,$Opacity:$Jease$.$Linear,$Rotate:$Jease$.$InExpo},$Opacity:2,$Round:{$Rotate:0.7}},
-        {$Duration:1200,x:-4,y:2,$Rows:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Row:28},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.7}},
-        {$Duration:1200,x:1,y:2,$Cols:2,$Zoom:11,$Rotate:1,$Assembly:2049,$ChessMode:{$Column:19},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Zoom:$Jease$.$InCubic,$Opacity:$Jease$.$OutQuad,$Rotate:$Jease$.$InCubic},$Opacity:2,$Round:{$Rotate:0.8}}
-    ];
+    jQuery('.configuration .owl-item').not('.cloned').each(function() {
+        jQuery( this ).addClass( 'slidenumber' + slidecount);
+        slidecount=slidecount+1;
+    });
 
-    var jssor_2_options = {
-        $AutoPlay: 1,
-        $SlideshowOptions: {
-            $Class: $JssorSlideshowRunner$,
-            $Transitions: jssor_2_SlideshowTransitions,
-            $TransitionsOrder: 1
-        },
-        $ArrowNavigatorOptions: {
-            $Class: $JssorArrowNavigator$
-        },
-        $ThumbnailNavigatorOptions: {
-            $Class: $JssorThumbnailNavigator$,
-            $Rows: 1,
-            $SpacingX: 12,
-            $SpacingY: 10,
-            $Orientation: 2,
-            $Align: 156
-        }
-    };
+    jQuery('.configuration .owl-dot').each(function() {
+        grab = jQuery(this).data('info');
+        slidegrab = jQuery('.slidenumber'+ grab +' img').attr('src');
+        jQuery(this).css("background-image", "url("+slidegrab+")");
+    });
 
-    var jssor_2_slider = new $JssorSlider$("jssor_2", jssor_2_options);
+    amount = $('.configuration .owl-dot').length;
+    gotowidth = 100/amount;
+    jQuery('.owl-dot').css("height", gotowidth+"%");
 
-  /*#region responsive code begin*/
 
-    var MAX_WIDTH = 1120;
 
-    function ScaleSlider_2() {
-        var containerElement = jssor_2_slider.$Elmt.parentNode;
-        var containerWidth = containerElement.clientWidth;
+    /* INIT REVIEWS - СЛАЙДЕР ОТЗЫВОВ */
 
-        if (containerWidth) {
+    $('#testimonials .bxslider').bxSlider({
+        minSlides: 2,
+        maxSlides: 2,
+        slideWidth: 468,
+        slideMargin: 20,
+        auto: true,
+    });
 
-            var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
 
-            jssor_2_slider.$ScaleWidth(expectedWidth);
-        }
-        else {
-            window.setTimeout(ScaleSlider, 30);
-        }
-    }
+    $('#about .bxslider').bxSlider({
+        auto: true,
+        minSlides: 1,
+        maxSlides: 1,
+        slideWidth: 960
+    });
 
-    function ScaleSlider() {
-        var containerElement = jssor_1_slider.$Elmt.parentNode;
-        var containerWidth = containerElement.clientWidth;
+    $("#carousel").owlCarousel({
+        navigation : false,
+        slideSpeed : 500,
+        paginationSpeed : 800,
+        rewindSpeed : 1000,
+        singleItem: true,
+        autoPlay : true,
+        stopOnHover : true,
+    });
 
-        if (containerWidth) {
 
-            var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-            jssor_2_slider.$ScaleWidth(expectedWidth);
-        }
-        else {
-            window.setTimeout(ScaleSlider, 30);
-        }
-    }
-
-    ScaleSlider();
-    ScaleSlider_2();
-
-    $(window).bind("load", ScaleSlider);
-    $(window).bind("resize", ScaleSlider);
-    $(window).bind("orientationchange", ScaleSlider);
-  /*#endregion responsive code end*/
 
 
 

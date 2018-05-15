@@ -19,6 +19,11 @@
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+      <!--OWL CAROUSEL CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet" type="text/css">
+      <!--BX slider-->
+      <!--<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css">-->
+      <link rel="stylesheet" href="css/jquery.bxslider.css">
 
     <!-- LIGHTBOX - GALLERY Лайтбокс на галерее -->
     <link href="css/ekko-lightbox.min.css" rel="stylesheet" type="text/css">
@@ -44,33 +49,33 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#portfolio">Магазин</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#shop">Магазин</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#about">Технологии</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Гарантии</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#quantity">Гарантии</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Подделки</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#fake">Подделки</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Отзывы</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#testimonials">Отзывы</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Акции</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#action">Акции</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Галерея</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#gallery">Галерея</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Контакты</a>
+              <a class="nav-link py-3 px-0 px-lg-1 rounded js-scroll-trigger" href="#contacts">Контакты</a>
             </li>
 
             <li class="nav-item mx-0 mx-lg-2">
               <!--<button class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Оставить заявку</button>-->
-              <button type="button" class="btn btn-warning js-scroll-trigger" >Оставить заявку</button>
+              <button type="button" class="btn btn-warning js-scroll-trigger" data-toggle="modal" data-target="#basicModal">Оставить заявку</button>
             </li>
 
              <li class="nav-item mx-0 px-0 col-lg-2 text-xs-center mt-2 mt-sm-0">
@@ -94,7 +99,7 @@
           <div class="col-md-6 text-md-left text-lg-left">
             <h1 class="banner-head text-uppercase font-600">Большой выбор качественных чемоданов</h1>
               <p>Доставим по Москве за 2 часа</p>
-              <button type="button" class="btn btn-warning mb-4 mb-sm-0 js-scroll-trigger">Оставить заявку</button>
+              <button type="button" class="btn btn-warning mb-4 mb-sm-0 js-scroll-trigger" data-toggle="modal" data-target="#basicModal">Оставить заявку</button>
           </div>
           <div class="col-md-6">
               <img class="img-fluid mb-5 d-block mx-auto" src="img/chemodan.png" alt="">
@@ -102,7 +107,7 @@
         </div>
             <!--ARROW TO SHOP-->
           <div class="arrow  d-block text-center mt-4 ">
-              <a href="#about" class="js-scroll-trigger text-uppercase text-white">
+              <a href="#shop" class="js-scroll-trigger text-uppercase text-white">
                   <div>МАГАЗИН</div>
                   <i class="fa fa-arrow-down"></i>
               </a>
@@ -112,7 +117,7 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio configuration" id="shop">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-5">выберите конфигурацию</h2>
         <!--<hr class="star-dark mb-5">-->
@@ -210,96 +215,17 @@
           <!--SLIDER-->
           <div class="col-md-5 col-lg-5">
 
-            <div id="jssor_1">
-              <!-- Loading Screen -->
-              <div data-u="loading" class="jssorl-009-spin">
-                <img style="" src="img/spin.svg" />
-              </div>
-              <div data-u="slides" class="slides" style="">
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/004.jpg" />
-                  <img data-u="thumb" src="img/temp/004-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/005.jpg" />
-                  <img data-u="thumb" src="img/temp/005-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/006.jpg" />
-                  <img data-u="thumb" src="img/temp/006-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/007.jpg" />
-                  <img data-u="thumb" src="img/temp/007-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/008.jpg" />
-                  <img data-u="thumb" src="img/temp/008-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/009.jpg" />
-                  <img data-u="thumb" src="img/temp/009-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/010.jpg" />
-                  <img data-u="thumb" src="img/temp/010-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/013.jpg" />
-                  <img data-u="thumb" src="img/temp/013-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/014.jpg" />
-                  <img data-u="thumb" src="img/temp/014-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/015.jpg" />
-                  <img data-u="thumb" src="img/temp/015-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/016.jpg" />
-                  <img data-u="thumb" src="img/temp/016-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/017.jpg" />
-                  <img data-u="thumb" src="img/temp/017-s99x66.jpg" />
-                </div>
-                <div data-p="150.00">
-                  <img data-u="image" src="img/temp/018.jpg" />
-                  <img data-u="thumb" src="img/temp/018-s99x66.jpg" />
-                </div>
-              </div>
-              <!-- Thumbnail Navigator -->
-              <div data-u="thumbnavigator" class="jssort101" style="
-              " data-autocenter="2" data-scale-left="0.75">
-                <div data-u="slides">
-                  <div data-u="prototype" class="p" style="">
-                    <div data-u="thumbnailtemplate" class="t"></div>
-                    <svg viewbox="0 0 16000 16000" class="cv">
-                      <circle class="a" cx="8000" cy="8000" r="3238.1"></circle>
-                      <line class="a" x1="6190.5" y1="8000" x2="9809.5" y2="8000"></line>
-                      <line class="a" x1="8000" y1="9809.5" x2="8000" y2="6190.5"></line>
-                    </svg>
+              <div class="content-carousel">
+                  <div class="owl-carousel">
+                      <div> <img src="https://dummyimage.com/600x400/ef3e3e/231f20.png&text=Carousel"> </div>
+                      <div> <img src="https://dummyimage.com/600x400/16c1f3/231f20.png&text=Carousel"> </div>
+                      <div> <img src="https://dummyimage.com/600x400/fff200/231f20.png&text=Carousel"> </div>
+                      <div> <img src="https://dummyimage.com/600x400/f48480/231f20.png&text=Carousel"> </div>
+                      <div><img src="https://dummyimage.com/600x400/8dd8f8/231f20.png&text=Carousel"> </div>
+                      <div><img src="https://dummyimage.com/600x400/fffac2/231f20.png&text=Carousel"> </div>
                   </div>
-                </div>
-              </div>
-              <!-- Arrow Navigator -->
-              <div data-u="arrowleft" class="jssora093 arr-left" data-autocenter="2">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                  <circle class="c" cx="8000" cy="8000" r="5920"></circle>
-                  <polyline class="a" points="7777.8,6080 5857.8,8000 7777.8,9920 "></polyline>
-                  <line class="a" x1="10142.2" y1="8000" x2="5857.8" y2="8000"></line>
-                </svg>
-              </div>
-              <div data-u="arrowright" class="jssora093 arr-right" style="" data-autocenter="2">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                  <circle class="c" cx="8000" cy="8000" r="5920"></circle>
-                  <polyline class="a" points="8222.2,6080 10142.2,8000 8222.2,9920 "></polyline>
-                  <line class="a" x1="5857.8" y1="8000" x2="10142.2" y2="8000"></line>
-                </svg>
               </div>
 
-            </div>
 
           </div>
           <!--END SLIDER-->
@@ -396,6 +322,58 @@
     <section class="bg-secondary text-white mb-0" id="about">
       <div class="container">
 
+          <div class="bxslider">
+              <div>
+
+                  <div class="row">
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                          <img class="d-block img-fluid" src="img/kolesiki.png" alt="First slide">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                          <h4 class="text-uppercase">надежные колесики </h4>
+                          <p class="slide-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                              nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+
+                      </div>
+                  </div>
+
+              </div>
+              <div>
+
+                  <div class="row">
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                          <img class="d-block img-fluid" src="img/kolesiki.png" alt="First slide">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                          <h4 class="text-uppercase">надежные колесики </h4>
+                          <p class="slide-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                              nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+
+                      </div>
+                  </div>
+
+              </div>
+              <div>
+
+                  <div class="row">
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                          <img class="d-block img-fluid" src="img/kolesiki.png" alt="First slide">
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                          <h4 class="text-uppercase">надежные колесики </h4>
+                          <p class="slide-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                              nostrud exercitation ullamco laboris nisi ut aliquip. </p>
+
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+          <!--
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
           <div class="carousel-inner" role="listbox">
@@ -459,6 +437,8 @@
 
         </div>
 
+          -->
+
 
 
         <!-- ТЕХНОЛОГИИ -->
@@ -488,8 +468,8 @@
 
         <div class="row">
           <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
-            <p class="yellow text-uppercase">Официальная гарантия </p>
-             <h3>от производителя</h3>
+              <p class="yellow text-uppercase">Официальная гарантия </p>
+              <h3>от производителя</h3>
 
             <div class="yellow border-bottom-2 mt-5">365 дней</div>
 
@@ -498,22 +478,22 @@
             </div>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
-            <h5 class="text-uppercase">полностью Бесплатное обсуживание <b class="yellow font-weight-bold">6 месяцев</b></h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+                <h5 class="text-uppercase">полностью Бесплатное обсуживание <b class="yellow font-weight-bold">6 месяцев</b></h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-              laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua.</p>
-          </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
         </div>
 
         <div class="arrow  d-block text-center mt-4">
-          <a href="#about" class="js-scroll-trigger text-uppercase ">
+          <a href="#fake" class="js-scroll-trigger text-uppercase ">
             <div>Подделки</div>
             <i class="fa fa-arrow-down"></i>
           </a>
@@ -528,7 +508,7 @@
         <h3 class="text-center text-uppercase text-secondary mb-3">Остерегайтесь некачественых подделок</h3>
 
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-center pt-4">
 
             <div class="alert alert-light border-dark custom-alert" role="alert">
               <h4>Внимание!</h4>
@@ -586,196 +566,33 @@
     </section>
 
     <!-- SECTION TESTIMONIALS -->
-    <section id="testimonials">
+    <section id="testimonials" class="testimonials">
         <div class="container">
 
-            <div id="jssor_2" >
-                <!-- Loading Screen -->
-                <div data-u="loading" class="jssorl-009-spin" >
-                    <img style="" src="img/spin.svg" />
-                </div>
-                <div data-u="slides" class="u-slides" >
-                    <div data-p="150.00">
-                        <ul class="review">
-                            <li>
-                                <div class="insides">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- jQuery library (served from Google) -->
+                    <div class="bxslider">
+                        <div>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=468%C3%97135&w=468&h=135" />
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=468%C3%97135&w=468&h=135" />
+                        </div>
+                        <div>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=468%C3%97135&w=468&h=135" />
 
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=468%C3%97135&w=468&h=135" />
+                        </div>
+                        <div>
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=468%C3%97135&w=468&h=135" />
+
+                            <img src="https://placeholdit.imgix.net/~text?txtsize=50&txt=468%C3%97135&w=468&h=135" />
+                        </div>
                     </div>
 
-                    <div data-p="150.00">
-                        <ul class="review">
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div data-p="150.00">
-                        <ul class="review">
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="insides">
-                                    <div class="photo">
-                                        <img src="http://placehold.it/150x150" alt="" />
-                                    </div>
-                                    <div class="testimonial">
-                                        <span class="name">Neo Ighodaro</span>
-                                        <span class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nihil dolorem eveniet minus accusamus harum veniam.
-        </span>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-
-                    </div>
                 </div>
-
-
-                <!-- Arrow Navigator -->
-                <div data-u="arrowleft" class="jssora093 arr-left"  data-autocenter="2">
-                    <i class="fa fa-angle-left text-dark fa-3x"></i>
-                </div>
-                <div data-u="arrowright" class="jssora093 arr-right"  data-autocenter="2">
-                    <i class="fa fa-angle-right text-dark fa-3x"></i>
-                </div>
-
             </div>
+
+
 
 
 
@@ -795,7 +612,7 @@
                     <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
 
-                    <button type="button" class="btn btn-warning js-scroll-trigger mb-3 ">Оставить заявку</button>
+                    <button type="button" class="btn btn-warning js-scroll-trigger mb-3" data-toggle="modal" data-target="#basicModal">Оставить заявку</button>
 
                     <h4 class="text-uppercase text-white">До конца акции осталось</h4>
 
@@ -907,7 +724,7 @@
             </div>
 
             <div class="arrow  d-block text-center mt-4">
-                <a href="#about" class="js-scroll-trigger text-uppercase ">
+                <a href="#action" class="js-scroll-trigger text-uppercase ">
                     <div>Акции</div>
                     <i class="fa fa-arrow-down"></i>
                 </a>
@@ -918,56 +735,10 @@
 
 
     <!-- Contact Section -->
-    <section id="action-page" >
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Контакты</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-            <form name="sentMessage" id="contactForm" novalidate="novalidate">
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Имя</label>
-                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Почта</label>
-                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Номер телефона</label>
-                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                  <label>Сообщение</label>
-                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
-                  <p class="help-block text-danger"></p>
-                </div>
-              </div>
-              <br>
-              <div id="success"></div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Отправить</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+
 
     <!-- Footer -->
-    <footer class="footer text-center bg-white">
+    <footer class="footer text-center bg-white" id="contacts">
       <div class="container">
         <div class="row">
 
@@ -1206,9 +977,78 @@
       </div>
     </div>
 
+
+
+    <!-- basic modal -->
+    <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg "> <!-- modal-dialog-centered -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel">Отправьте ваши контакты</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Пожалуйста, отправьте ваши контакты. Мы перезвоним вам, поможем выбрать чемодан и ответим на вопросы</p>
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="control-group">
+                                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                        <label>Ваше Имя</label>
+                                        <input class="form-control" id="name" type="text" placeholder="Ваше Имя" required="required" data-validation-required-message="Please enter your name.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="control-group">
+                                    <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                        <label>Номер телефона</label>
+                                        <input class="form-control" id="phone" type="tel" placeholder="Номер телефона" required="required" data-validation-required-message="Please enter your phone number.">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--<div class="control-group">-->
+                            <!--<div class="form-group floating-label-form-group controls mb-0 pb-2">-->
+                                <!--<label>Почта</label>-->
+                                <!--<input class="form-control" id="email" type="email" placeholder="Почта" required="required" data-validation-required-message="Please enter your email address.">-->
+                                <!--<p class="help-block text-danger"></p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+
+                        <!--<div class="control-group">-->
+                            <!--<div class="form-group floating-label-form-group controls mb-0 pb-2">-->
+                                <!--<label>Сообщение</label>-->
+                                <!--<textarea class="form-control" id="message" rows="5" placeholder="Сообщение" required="required" data-validation-required-message="Please enter a message."></textarea>-->
+                                <!--<p class="help-block text-danger"></p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <br>
+                        <div id="success"></div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-warning" id="sendMessageButton">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                <!--<div class="modal-footer">-->
+                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--<button type="button" class="btn btn-primary">Отправить</button>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
@@ -1220,6 +1060,12 @@
 
     <!--Jquery JSOR SLIDER-->
     <script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+    <!--OWL CAROUSEL-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js" type="text/javascript"></script>
+
+    <!--BX SLIDER FOR REVIEWS-->
+    <script src="js/jquery.bxslider.min.js"></script>
+
 
     <!-- LIGHTBOX - GALLERY Лайтбокс на галерее -->
     <script src="js/ekko-lightbox.min.js" type="text/javascript"></script>
