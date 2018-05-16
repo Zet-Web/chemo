@@ -521,6 +521,9 @@ form .row:first-child .floating-label-form-group {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  &.active {
+    border:1px solid #000;
+  }
 }
 
 .owl-prev {
@@ -621,12 +624,13 @@ form .row:first-child .floating-label-form-group {
     transform: translate(-50%, -50%);
   }
 
+
   .bx-wrapper .bx-next {
     right: -50px;
     border-radius: 15px;
   }
 
-  .bx-wrapper .bx-next:before{
+ .bx-wrapper .bx-next:before{
     content:'';
     background: url(http://www.japonshop.com/css/img/flch-der.gif) no-repeat center;
     width: 20px;
@@ -637,6 +641,7 @@ form .row:first-child .floating-label-form-group {
     transform: translate(-50%, -50%);
   }
 
+
   .bx-wrapper .bx-controls-direction a {
     position: absolute;
     top: 50%;
@@ -646,15 +651,11 @@ form .row:first-child .floating-label-form-group {
     height: 112px;
     text-indent: -9999px;
     z-index: 9999;
-    border: 1px solid #e6e6e6;
-    background: -webkit-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
-    background: -moz-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
-    background: -o-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
-    background: linear-gradient(#fcfcfc 0%, #ebebeb 100%);
+
   }
 
   .bx-wrapper .bx-controls-direction a:hover{
-    background: #ebebeb;
+    background: #cccccc;
   }
 
   .bx-wrapper .bx-controls-direction a:hover:before{
@@ -740,6 +741,24 @@ form .row:first-child .floating-label-form-group {
 }
 /* END TESTIMONIALS BX SLIDER STYLES - СТИЛИ ОТЗЫВОВ  */
 
+//MODAL FEEDBACK - МОдалка оставить заявку
+#basicModal .floating-label-form-group .help-block {
+  margin-bottom: 0;
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+}
+//MODAL FEEDBACK - МОдалка оставить заявку
+
+
+.arrow a {
+  color: #23356B;
+}
+
+#quantity .arrow a {
+  color:#FFF;
+}
 
 
 
@@ -844,6 +863,39 @@ and (max-device-width : 1024px)  {
     width: 100%;
     display: block;
     margin: 0 auto;
+  }
+  .testimonials .bx-wrapper .bx-next {
+    right:0;
+  }
+  .testimonials .bx-wrapper .bx-prev {
+    left:0;
+  }
+
+  .owl-carousel {
+    width: calc(100% - 140px);
+  }
+
+  #gallery .gallery-link  {
+    display: inline-block;
+    width: 50%;
+    img {
+      //max-width: 50%;
+    }
+  }
+
+  .owl-carousel .owl-dots {
+    position: absolute;
+    top: 0;
+    right: -145px;
+    width: 120px;
+    height: 100%;
+  }
+
+  .owl-prev {
+    margin-left: -15px;
+  }
+  .owl-next {
+    right:-20px;
   }
 
 }

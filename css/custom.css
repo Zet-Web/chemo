@@ -506,6 +506,8 @@ form .row:first-child .floating-label-form-group {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+  .owl-carousel .owl-dot.active {
+    border: 1px solid #000; }
 
 .owl-prev {
   width: 15px;
@@ -600,14 +602,9 @@ form .row:first-child .floating-label-form-group {
     width: 32px;
     height: 112px;
     text-indent: -9999px;
-    z-index: 9999;
-    border: 1px solid #e6e6e6;
-    background: -webkit-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
-    background: -moz-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
-    background: -o-linear-gradient(#fcfcfc 0%, #ebebeb 100%);
-    background: linear-gradient(#fcfcfc 0%, #ebebeb 100%); }
+    z-index: 9999; }
   .testimonials .bx-wrapper .bx-controls-direction a:hover {
-    background: #ebebeb; }
+    background: #cccccc; }
   .testimonials .bx-wrapper .bx-controls-direction a:hover:before {
     left: 45%; }
   .testimonials .bx-wrapper .bx-controls-direction a.bx-next:hover:before {
@@ -659,6 +656,18 @@ form .row:first-child .floating-label-form-group {
     padding: 10px; }
 
 /* END TESTIMONIALS BX SLIDER STYLES - ╨б╨в╨Ш╨Ы╨Ш ╨Ю╨в╨Ч╨л╨Т╨Ю╨Т  */
+#basicModal .floating-label-form-group .help-block {
+  margin-bottom: 0; }
+  #basicModal .floating-label-form-group .help-block ul {
+    padding-left: 0;
+    list-style-type: none; }
+
+.arrow a {
+  color: #23356B; }
+
+#quantity .arrow a {
+  color: #FFF; }
+
 /* Large desktops and laptops */
 /* Landscape tablets and medium desktops */
 /* Portrait tablets and small desktops */
@@ -709,7 +718,33 @@ form .row:first-child .floating-label-form-group {
   .content-carousel {
     width: 100%;
     display: block;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+
+  .testimonials .bx-wrapper .bx-next {
+    right: 0; }
+
+  .testimonials .bx-wrapper .bx-prev {
+    left: 0; }
+
+  .owl-carousel {
+    width: calc(100% - 140px); }
+
+  #gallery .gallery-link {
+    display: inline-block;
+    width: 50%; }
+
+  .owl-carousel .owl-dots {
+    position: absolute;
+    top: 0;
+    right: -145px;
+    width: 120px;
+    height: 100%; }
+
+  .owl-prev {
+    margin-left: -15px; }
+
+  .owl-next {
+    right: -20px; } }
 /* MEDIA 480px*/
 
 /*# sourceMappingURL=custom.css.map */
